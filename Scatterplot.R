@@ -8,4 +8,6 @@ hist(df$a)
 
 qqnorm(df$b)
 
-lm(a ~ b, data = df)
+fit1 <- lm(a ~ b, data = df)
+summary(fit1)
+
