@@ -7,3 +7,5 @@ ggplot(df, aes(a, b)) + geom_point(color = "red") + geom_smooth(method = "lm")
 hist(df$a)
 
 qqnorm(df$b)
+
+lm(a ~ b, data = df)
